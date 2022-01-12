@@ -1,0 +1,45 @@
+<!DOCTYPE html><!-- su Visual studio--> 
+<html lang="lt">
+  <head>
+   <meta charset="UTF-8">   
+     <title>Afrikos gyvūnai galerija</title>
+  </head>
+  <body>
+   <header>
+    <nav>
+     <p>  
+	    <a href="index.html" targer="img/africa.png">
+	    <img src="img/africa.png" width="50" alt="logo"></a>
+     </p> 
+  	 <p>
+		  <a href="index.html" >Home</a>
+		  <a href="galerija.html" >Galerija</a>
+		  <a href="bookmarks.html" >Nuorodos</a>
+		  <a href="links.html" >Links</a>
+	   </p>
+     <hr/>
+    </nav>
+   </header>
+   <main>
+     <h1>Galerija</h1>
+    
+     <h3>Dramblys</h3>
+     <p>
+    	 <img src="img/dramblys1.jpg" height="200" alt="Dramblys"><img src="img/dramblys2.img.jpg " height="200" alt="Dramblys"><img src="img/dramblys3.img.jpg" height="200" alt="Dramblys">
+		 </p>
+	    <h3>Žirafa</h3>
+     <p>
+          <img src="img/zirafa1.img.jpg"height="200" alt="zirafa"><img src="img/zirafa2.img.jpg" height="200" alt="zirafa"><img src="img/zirafa3.img.jpg" height="200" alt="zirafa">
+     </p>
+     <h3>Begemotas</h3>
+     <p>       
+          <img src="img/begemotas1.img.jpg" height="200"alt="Begemotas"><img src="img/begemotas2.img.jpg" height="200"alt="Begemotas"><img src="img/begemotas3.img.jpg"height="200"alt="Begemotas">
+     </p>
+	  <p><a href="#"> i pradžia</a></p>
+   </main>
+   <footer>
+    <hr/>
+	  <h5>© AurimasK 2022. Visos teisės saugomos</h5>
+   </footer>
+  </body>
+</html>
