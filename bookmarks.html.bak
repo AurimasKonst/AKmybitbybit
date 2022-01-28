@@ -3,14 +3,15 @@
  <head>
   <meta charset="UTF-8">
      <title>AFRIKOS GYVUNAI nuorodos</title>
-     <link rel="shortcut icon" href="img/africa.png"> <!-- Visual studio-->
+     <link rel="shortcut icon" href="img/africa.png" > <!-- Visual studio-->
      <Style>
-       main {
-		background-color:rgb(189, 212, 189);
-   }
-   header {
+       header {
 		background-color:rgb(191, 245, 191);
-   }
+
+		border: 1px solid rgb(20, 2, 49);
+		padding: 0px 20px; 
+		margin: 0px;   
+       }
    nav a:link, a:visited {
                       display: inline-block;
 	           background-color: rgb(121, 163, 97);
@@ -18,13 +19,44 @@
               text-decoration: none;
                    text-align: center;
 	                     border: 2px solid rgb(20, 2, 49);
-	                    padding: 6px 10px;            	                              
+	                    padding: 6px 10px;                      	                              
     	}
-   footer {
-		background-color:rgb(191, 245, 191);
+      nav a:hover  {
+             color: rgb(226, 19, 88);
+              text-decoration: underline 5px;
+        }
+    main {
+        background-color:rgb(189, 212, 189);
+		             padding: 5px 20px;
+				          border: 1px solid rgb(61, 10, 10);
+				          margin:0%;
+    }   
+     main          
+         h1, h2 {
+         font-weight: bold;
+		 color:rgb(61, 10, 10);
+	    }
+      p {
+         font-weight: bold;
+		           color:darkgreen;
+               font-size:20px;
+         }	
+      #dramblys, #zirafa, #begemotas {
+                       color: rgb(80, 3, 3);
+              text-decoration: none;
+                   text-align: left;
+	                     border: 2px solid rgb(20, 2, 49);
+	                    padding: 6px 10px;
+              background-color:rgb(2, 148, 2);
+      }   
+     footer {
+	         	background-color:rgb(191, 245, 191);
+	                  	border: 1px solid rgb(20, 2, 49);
+		                 padding: 0px 20px; 
+		                  margin: 0px;   
    }
-     h1 {
-			color:rgb(14, 34, 59);
+     h5 {
+		color:rgb(14, 34, 59);
 	}
    
    
@@ -35,7 +67,7 @@
   <header>
    <nav>
     <p>  
-	   <a href="index.html" targer="img/africa.png">
+	   <a href="index.html">
 	   <img src="img/africa.png" width="40" alt="logo"></a>
 	  </p> 
     <p>
@@ -44,15 +76,14 @@
 	   <a href="bookmarks.html">Nuorodos</a>
 	   <a href="links.html">Links</a>
 	  </p>
-	  <hr/>
    </nav>
   </header>
   <main>
    <section>
     <p><a href="#dramblys">Dramblys</a>       <a href="#�irafa"> �irafa</a>    <a href="#begemotas">Begemotas</a></p>
-    	<h1 id="drablys">Dramblys</h1>
-    <p>
-      <img src="img/dr1.png" height="200" alt="Dramblys">
+    	<h2 id="dramblys">Dramblys</h2>
+   </section>
+      <img src="img/dr1.png" height="200" alt="Dramblys" style="margin-top:10px">
     </p>
     <p>
      <a href="https://lt.wikipedia.org/wiki/Drambliai" target="_blank">Drambliai (Elephantinae)</a> � drambliniu (Elephantidae) �eimos labai stambiu �induoliu po�eimis.
@@ -70,6 +101,8 @@ Dantu (turi 26 dantis) sistema labai pakitusi. Vir�utiniame �ande turi pora 
 
 Gerai i�sivysciusios smegenys. Tik gimes jauniklis sveria apie 100 kg. Patele krutines srityje turi pora speniu.
 	  Iki musu laiku i�liko dvi drambliu (Elephantinae) po�eimio gentys: afrikiniai drambliai ir azijiniai drambliai, su jose esamomis 3 ru�imis. �ios gentys paplitusios Pietu ir Pietryciu Azijoje ir i pietus nuo Sacharos, Afrikoje.</p>
+   </p>
+    <p>  
   Iki musu laiku i�liko dvi drambliu (Elephantinae) po�eimio gentys: afrikiniai drambliai ir azijiniai drambliai, su jose esamomis 3 ru�imis. �ios gentys paplitusios Pietu ir Pietryciu Azijoje ir i pietus nuo Sacharos, Afrikoje.
 Stambiausios �iais laikais i�likusios ru�ies - afrikinio savaninio dramblio auk�tis iki 4 m, mase iki 7,5 t.
 
@@ -92,10 +125,11 @@ Dantu (turi 26 dantis) sistema labai pakitusi. Vir�utiniame �ande turi pora 
 
 Gerai i�sivysciusios smegenys. Tik gimes jauniklis sveria apie 100 kg. Patele krutines srityje turi pora speniu.
 	  Iki musu laiku i�liko dvi drambliu (Elephantinae) po�eimio gentys: afrikiniai drambliai ir azijiniai drambliai, su jose esamomis 3 ru�imis. �ios gentys paplitusios Pietu ir Pi
+    </p>
    </section>
    <section>   
-	  <p><a href="#"> i prad�ia</a></p>
-     <h1 id="�irafa">�irafa</h1>
+	  <p><a href="#"> i pradžią</a></p>
+     <h2 id="zirafa">Žirafa</h2>
 	 <p>  
 	   <img src="img/gi1.png" height="200" alt="zirafa">
     </p>
@@ -113,8 +147,8 @@ Gyvena nedidelemis ~12 individu grupemis. Minta akaciju, miramed�iu, vir�ukl
    </section> 
 	 <section>
 	   </p>
-     <p><a href="#"> i prad�ia</a></p>
-      <h1 id="begemotas">Begemotas</h1>
+     <p><a href="#"> i pradžią</a></p>
+      <h2 id="begemotas">Begemotas</h2>
      <p>
 		  <img src="img/bg1.png" height="200" alt="Begemotas">
 	   </p>
@@ -124,10 +158,9 @@ Gyvena nedidelemis ~12 individu grupemis. Minta akaciju, miramed�iu, vir�ukl
 Skaitykite daugiau: https://www.15min.lt/pasaulis-kiseneje/naujiena/kelioniu-pulsas/pasaulio-gyvunai-ko-nezinojote-apie-hipopotamus-637-232395?copied
      </p>
 	 </section>
-     <p><a href="#"> i prad�ia</a></p>
+     <p><a href="#"> i pradžią</a></p>
 	</main>
 	<footer>
-	  <hr/>
-	   <h5>� AurimasK 2022. Visos teises saugomos</h5>
+		   <h5>© AurimasK 2022. Visos teises saugomos</h5>
 	</footer>
  </body>

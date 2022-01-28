@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="lt">
+ <head>
+	<meta charset="UTF-8">	 
+     <title>Afrikos gyvūnai</title>
+	 <link rel="shortcut icon" href="img/africa.png">
+  <Style>
+	header {
+	       	background-color:rgb(191, 245, 191);
+		              border: 1px solid rgb(20, 2, 49);
+		             padding: 0px 20px; 
+		              margin: 0px;   
+          }
+	   nav a:link, a:visited 
+	      {
+                      display: inline-block;
+	         background-color: rgb(121, 163, 97);
+	                    color: rgb(61, 10, 10);
+              text-decoration: none;
+                   text-align: center;
+	                   border: 2px solid rgb(20, 2, 49);
+	                  padding: 6px 10px; 
+					  margin: 0px 0px;           	                              
+          }
+		nav a:hover 
+		  {
+                        color: rgb(226, 19, 88);
+              text-decoration: underline 5px;
+          }	
+         main 
+		   {
+		     background-color:rgb(189, 212, 189);
+		              padding: 5px 20px;
+	                   border: 1px solid rgb(61, 10, 10);
+				       margin:0%;
+           }
+	      h1, h2 {
+                   font-weight:bold;
+		                 color:rgb(61, 10, 10);
+	       }
+	     p {
+                  font-weight:normal;
+		                color:darkgreen;
+		            font-size:20px;
+           }	
+         h3 {
+                  font-weight:bold;
+		                color:darkgreen;
+	         }		 	 
+       footer {
+		      background-color:rgb(191, 245, 191);
+		                border: 1px solid rgb(20, 2, 49);
+	                   padding: 0px 20px; 
+		                margin: 0px;   
+         }
+        h5 {
+		               color:rgb(14, 34, 59);
+	    }
+	 a>{
+	/*width:5px;*/
+		}
+		
+   </Style>
+ </head>
+ <body>
+   <header>
+	 <nav>
+	  <p>  
+	   <a href="index.html"><img src="img/africa.png" alt="logo"></a>
+	   <a href="../">Serveris</a>
+	  </p>  
+      <p>
+     	<a href="index.html">Home</a>
+		<a href="galerija.html">Galerija</a>
+		<a href="bookmarks.html">Nuorodos</a>
+		<a href="links.html">Links</a>
+	   </p>
+	  </nav>
+   </header>
+   <main>	
+	 <h1>Afrikos gyvūnai</h1> 
+	 <h2>- tai gyvūnai augantys Afrikos žemyne.</h2> 
+	  <p>
+		Pirmieji faunos formavimosi pėdsakai Afrikoje atsirado dar ankstyvosiomis gyvenimo dienomis, kai apskritai egzistuoja mūsų planeta. Tačiau verta paminėti, kad gamtos formavimasis tokiu pavidalu, kokį mes jį matome dabar, maždaug reiškia Gondvano superkontinento susiskaldymo laikus Mezozojaus vidurio epochoje.
+	  </p>
+	  <p>
+        Faunos susidarymą daugiausia lėmė įvairios gyvūnų migracijos iš senovės Godvanos žemynų - Madagaskaro, Pietų Amerikos ir, galbūt, Indijos. Tačiau didžiausias srautas teka į Laurasia ir iš jos. Jei mes kalbėsime apie Godvanos žemynus, tada migracija vyko daugiausia vienašališkai - iš Afrikos, o mainai su Laurasia buvo daug ir kryptiniai, nors daugiausia iš Laurasia į Afriką.  
+	  </p>
+	  <h3>Plačiau apie tai sužinosite šioje svetainėje.</h3>
+  	  <p>
+    </main>
+   <footer>  
+     <h5>© AurimasK 2022. Visos teisės saugomos</h5>	
+   </footer>  
+ </body>
+</html>
